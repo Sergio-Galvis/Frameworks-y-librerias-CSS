@@ -1,0 +1,192 @@
+.navbar-inverse {
+  background-color: rgba(200, 200, 200, 0.95);
+  min-height: 10%;
+  border: none;
+}
+
+.navbar-social {
+  display: block;
+  text-align: right;
+  margin-top: -60px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: rgba(200, 200, 200, 0.95);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgba(8, 45, 94, 0.95);
+    text-align: center;
+    padding: 14px 85px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #777;
+}
+
+.logo-img {
+  width: 80px;
+}
+
+.container-fluid {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.redes-sociales {
+  margin-top: 30px;
+}
+
+.img-social {
+  width: 40px;
+  height: 40px;
+}
+
+.img-comment {
+  width: 40px;
+  height: 40px;
+  margin-top: -30px;
+}
+
+.img-blog {
+  height: 260px;
+  padding: 6px;
+  margin-top: 22px;
+}
+
+.movie-title {
+  color: #000;
+}
+
+.welcome-title {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.titulo-blog {
+  min-height: 35px;
+  background-color: rgba(8, 45, 94, 0.95);
+}
+
+.titulo-text {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #fff;
+  padding: 10px;
+}
+
+.movies-row {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 380px;;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.movies-row-last {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 425px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.movies-column {
+  margin-top: 5px;
+  min-height: 330px;
+  border: 1px dashed #FFFFFF;
+}
+
+.left-column {
+  border-right: 1px dashed #FFFFFF;
+}
+
+.row-centered {
+  text-align:center;
+}
+
+.services-text {
+  color: #FFFFFF;
+  margin-top: 13px;
+}
+
+.user_data {
+  margin-top: 10px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.input-element {
+  width: 100%;
+  height: 28px;
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 4px;
+  border: none;
+  margin-top: 5px;
+}
+
+.btn-search {
+  width: 40%;
+  height: 11%;
+  background-color: rgba(8, 45, 94, 0.95);
+  color: #FFFFFF;
+}
+
+.label-class {
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+@media (max-width: 770px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  .titulo-text {
+    font-size: 15px;
+  }
+
+  .right-column {
+    display: none;
+  }
+
+  .movies-row {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 400px;
+  }
+
+  .container-fluid{
+    margin-top: 60px;
+  }
+
+  .movies-column {
+    min-height: 230px;
+  }
+
+  .jumbotron {
+    min-height: 380px;
+  }
+
+  .jumbotron-img {
+    width: 150px;
+    margin-top: 20px;
+  }
+
+  .img-blog {
+    height: 133px;
+    padding: 6px;
+    margin-top: 22px;
+  }
+}
