@@ -1,0 +1,14 @@
+body {
+	background-image: url(../../img/pasta.jpg);
+}
+.logo-img{
+  width: 30%;
+}
+
+img {
+  max-height: 130px;
+}
+
+div.secondary.callout.text-center{
+  min-height: 242px;
+}
