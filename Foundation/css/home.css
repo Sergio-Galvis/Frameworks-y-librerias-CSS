@@ -1,5 +1,6 @@
 body {
 	background-image: url(../../img/pasta.jpg);
+	width: 100%;
 }
 .logo-img{
   width: 30%;
@@ -10,5 +11,13 @@ img {
 }
 
 div.secondary.callout.text-center{
-  min-height: 242px;
+  min-height: 240px;
+}
+
+ul {
+	list-style: none;
+}
+.recetas {
+	margin-left: 40%;
+	margin-top: -58%;
 }
